@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "ToDo",
+    "slug": "todo-firebase",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.chiefbark.todo",
+      "versionCode": 4
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "Simple todo's application using firebase"
+  }
+}
