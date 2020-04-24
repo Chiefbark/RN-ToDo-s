@@ -2,7 +2,7 @@
 
 Simple todo's application using firebase, where you can share your key with your friends and see their list.
 
-You can download the APK [here](https://expo.io/dashboard/chiefbark/builds/77c068ab-3014-4aba-a0cc-5137be3f2f8f) or scan the QR code found [here](https://expo.io/@chiefbark/todo-firebase) if you are an android user.
+You can download the APK <a href="./_asset_todo-firebase-793a61043fd3404aa8ccb066cb69d55c-signed.apk" download="todo-firebase-793a61043fd3404aa8ccb066cb69d55c-signed.apk">here</a> or scan the QR code found [here](https://expo.io/@chiefbark/todo-firebase) if you are an android user.
 
 ![crud](./_asset_crud.gif)
 ![share](./_asset_share.gif)
