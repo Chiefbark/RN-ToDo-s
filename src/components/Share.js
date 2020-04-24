@@ -45,7 +45,7 @@ export default class Share extends React.Component {
 									fontSize: 16, fontWeight: 'bold', textAlign: 'center'
 								}}>{this.state.shareKey?.slice(1)}</Text>
 								<Text style={{textAlign: 'center', marginTop: 5}}>
-									This is your user key. Send it to your friends to share your list!
+									This is your user key. It is unique and for single use. Send it to your friends to share your list!
 								</Text>
 								<TouchableHighlight
 									style={{
