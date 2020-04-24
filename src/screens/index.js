@@ -128,12 +128,12 @@ export default class Index extends React.Component {
 				}
 				{this.state.share &&
 				<Share userKey={this.state.userKey}
-					   onSubmit={(id) => {
+					   onSubmit={(key) => {
 						   this.setState({share: false});
 						   this.props.navigation.dispatch(
 							   CommonActions.navigate({
 								   name: 'preview',
-								   params: {userKey: this.state.userKey, friendKey: `-${id}`}
+								   params: {userKey: this.state.userKey, friendKey: key}
 							   })
 						   );
 					   }}
