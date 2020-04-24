@@ -24,7 +24,6 @@ export default class Share extends React.Component {
 	}
 	
 	render() {
-		console.log(this.state.shareKey);
 		return (
 			<Fragment>
 				<View style={{
